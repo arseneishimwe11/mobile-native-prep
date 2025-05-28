@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "PersonalFinTracker",
+    "slug": "personal-fin-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/splash_screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#667eea"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./src/assets/images/splash_screen.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#667eea"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "image": "./src/assets/images/splash_screen.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#667eea",
+        "mdpi": "./src/assets/images/splash_screen.png",
+        "hdpi": "./src/assets/images/splash_screen.png",
+        "xhdpi": "./src/assets/images/splash_screen.png",
+        "xxhdpi": "./src/assets/images/splash_screen.png",
+        "xxxhdpi": "./src/assets/images/splash_screen.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "splash": {
+        "image": "./src/assets/images/splash_screen.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#667eea"
+      }
+    }
+  }
+}
